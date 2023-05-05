@@ -10,6 +10,6 @@
 
 @layer components{
     .card{
-        @apply flex flex-col border-t-[4px] rounded-t-lg shadow-xl px-5 py-5
+        @apply flex flex-col border-t-[4px] rounded-t-lg shadow-xl px-5 py-5 laptop:w-[370px]
     }
 }

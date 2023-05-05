@@ -20,23 +20,25 @@
     <link rel="stylesheet" href="output.css" />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body class="flex min-h-screen flex-col items-center justify-center px-5 bg-light-gray">
-    <main class="grid gap-y-8">
-      <div>
-        <h1 class="mb-5 text-2xl"><span class="font-extra-light">Reliable, efficient delivery</span> <span class="font-semi-bold text-dark-blue">Powered by Technology</span> </h1>
-        <p class="text-grayish-blue">
+  <body class="flex min-h-screen flex-col items-center justify-center px-5 mobile:py-5 bg-light-gray">
+    <main class="grid gap-y-8 laptop:grid-cols-6 laptop:gap-x-8 laptop:w-[1150px]">
+
+      <div class="laptop:col-start-2 laptop:col-span-4">
+        <h1 class="mb-5 text-2xl laptop:text-3xl laptop:text-center"><span class="font-extra-light">Reliable, efficient delivery</span>
+          <br> <span class="font-semi-bold text-dark-blue">Powered by Technology</span> </h1>
+        <p class="text-grayish-blue laptop:text-center laptop:text-lg">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </div>
 
-      <div class="border-t-cyan card">
+      <div class="border-t-cyan card laptop:col-start-1 laptop:col-span-2 laptop:row-start-2 laptop:row-span-2 laptop:self-center">
         <span class="text-xl text-dark-blue font-semi-bold">Supervisor</span>
          <p class="text-grayish-blue">Monitors activity to identify project roadblocks</p>
         <img src="images/icon-supervisor.svg" class="mt-8 ml-auto h-[64px] w-[64px]" alt="">
       </div>
 
-      <div class="card border-t-red">
+      <div class="card border-t-red laptop:col-start-3 laptop:col-span-2">
         <span class="text-xl text-dark-blue font-semi-bold">Team Builder</span>
          <p class="text-grayish-blue">
            Scans our talent network to create the optimal team for
@@ -45,7 +47,7 @@
         <img src="images/icon-team-builder.svg" class="ml-auto h-[64px] w-[64px] mt-8" alt="">
       </div>
 
-      <div class="border-t-orange card">
+      <div class="border-t-orange card laptop:col-start-3 laptop:col-span-2">
         <span class="text-xl text-dark-blue font-semi-bold">Karma</span>
         <p class="text-grayish-blue">
           Regularly evaluates our talent to ensure quality
@@ -53,7 +55,7 @@
         <img src="images/icon-karma.svg" class="ml-auto h-[64px] w-[64px] mt-8" alt="">
       </div>
 
-      <div class="card border-t-blue">
+      <div class="card border-t-blue laptop:col-start-5 laptop:col-span-2 laptop:row-start-2 laptop:row-span-2 laptop:self-center">
         <span class="text-xl text-dark-blue font-semi-bold">
           Calculator
         </span>
